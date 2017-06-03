@@ -1,0 +1,377 @@
+/*Primary color*/
+/*  #3498db  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+     background-color: #fff;
+    color: #555;
+    color: #555!important;
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+     font-family: 'Lato', Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+.btn-primary{
+    background-color: #3498db;
+}
+.btn {
+    border-radius: 0;
+    transition: all 300ms ease-in-out;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background-color: #ededed;
+    color: #3c3c3c;
+    border: 1px solid #fff;
+}
+
+li {
+    list-style: none;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    transition: all 500ms ease-in-out;
+}
+
+a:hover,
+a:active {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    text-transform: uppercase;
+    font-weight: 300;
+      font-family: 'Lato', Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+h2::after{
+    display: block;
+    height: 2px;
+    width: 100px;
+    content: " ";
+    background-color: #3498db;
+   margin: 0 auto;
+   margin-top: 30px;
+
+}
+h4{
+    font-size: 20px;
+    margin: 20px 0 20px;
+}
+p{
+    line-height: 25px;
+}
+.section-intro-para{
+    width: 75%;
+    margin-left: 15%;
+    margin-bottom: 30px;
+}
+input{
+    border-radius: 0!important;
+    box-shadow: none !important;
+}
+
+section{
+    padding: 60px 0 60px;
+    text-align: center;
+}
+
+
+/*Header*/
+.header{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../images/bg.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    color: #fff;
+}
+.header .hero-content{
+    text-align: center;
+     margin-top: 300px;
+}
+.header h1{
+   
+    
+    font-weight: 300;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
+.header p{
+    /*margin: 15px 60px;*/
+    padding: 5px 30px;
+    width: 75%;
+    margin-left: 15%;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: "Open Sans";
+}
+
+/*Navigation*/
+
+.navbar{
+    background-color: transparent!important;
+    margin-top: 40px;
+    border: none;
+    transition:1s all  ease;
+}
+
+.navbar a{
+  color: #fff!important;
+}
+.navbar .navbar-brand{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+.navbar li{
+    margin-right: 5px;
+}
+.navbar li >a{
+    font-size: 15px;
+    text-transform: uppercase;
+    border-bottom: 1px solid transparent;
+}
+.navbar li >a:hover
+{
+border-bottom: 1px solid #3498db;
+}
+
+.sticky-nav{
+    background-color: #3498db !important;
+    box-shadow: 0 0 10px black;
+    min-height: 30px;
+    padding-top: 0;
+    margin-top: 0;
+  
+}
+
+/*Services*/
+
+.services i{
+    height: 100px;
+    width: 100px;
+    padding: 25px;
+    border-radius: 50%;
+    background-color: #3498db;
+/*text-align: center;*/
+    font-size: 50px;
+    color: #fff;
+}
+
+/*Features*/
+.features{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../images/features.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.features i{
+    height: 100px;
+    width: 100px;
+    padding: 23px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid #3498db;
+    font-size: 50px;
+}
+.features p{
+     font-style: italic;
+    font-weight: lighter;
+    font-family: "Open Sans";
+    font-size: 15px;
+}
+
+/*Technologies*/
+.technologies{
+    background-color: #3498db;
+    color: #fff;
+}
+.technologies h2::after{
+    background-color: #fff;
+}
+
+.technologies img{
+    width: 120px;
+    opacity: 0.8;
+    margin: 40px 0 40px;
+    transition: all 500ms ease-in-out;
+    cursor: pointer;
+  
+}
+.technologies img:hover{
+   opacity: 1;
+}
+
+.technologies .jquery{
+    height: 50px;
+    width: 200px;
+margin-left: -15px;
+   margin-top: 80px;
+}
+/*contact us*/
+.contact input[type="text"]{
+  height:49px; 
+}
+
+.contact textarea.form-control{
+    box-shadow: none !important;
+    border-radius: 0px !important;;
+}
+.contact button{
+    width: 100%;
+}
+.contact button:hover{
+    background-color: #4d6779;
+    color: #fff;
+}
+
+/*Footer*/
+.footer{
+    padding: 30px;
+    background-color: #222;
+    color: #fff;
+}
+.footer li{
+    margin-bottom: 15px;
+}
+.footer li a{
+    color: #fff;
+}
+.footer .social-icon{
+       font-size: 20px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-right: 5px;
+}
+.footer .social-links li{
+    display: inline-block;
+}
+.footer i{
+    padding-right: 5px;
+}
+.footer i{
+    transition: all 500ms ease-in-out;
+}
+.footer .fa-facebook:hover{
+    color: #3b5998;
+}
+.footer .fa-twitter:hover{
+color: #00aced;
+}
+.footer .fa-google-plus:hover{
+color:  #dd4b39;
+}
+.footer .fa-instagram:hover{
+color: #517fa4
+}
+.footer .copy-para{
+ text-align: center;
+}
+
+/*Mobile styles*/
+@media(max-width:767px){
+    .header h1{
+        font-size: 25px;
+        font-weight: 700;
+
+    }
+    .header .hero-content{
+
+    }
+    .header p{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        width: 80%;
+        margin-left: 10%;
+        font-size: 16px;
+    }
+    navbar li >a{
+    font-size: 10px;
+    }
+.navbar li >a:hover
+{
+border-bottom: 1px solid transparent;
+}
+.navbar-default .navbar-toggle {
+    border-color: #fff;
+}
+.navbar-default .navbar-toggle .icon-bar{
+ background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+.navbar-default .navbar-toggle:focus{
+   background-color: #3b65bf;
+ 
+}
+.navbar-default .navbar-toggle:focus .icon-bar{
+     background-color: #fff;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: transparent;
+}
+    h2{
+        font-size: 25px;
+    }
+    h4{
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .section-intro-para{
+    width: 100%;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+    .services{
+        padding: 30px;
+    }
+     .services i{
+        margin-top: 30px;
+    }
+    .features{
+         padding: 30px;
+    }
+    .features i{
+        margin-top: 30px;
+    }
+  .technologies .jquery{
+        margin: 0;
+    }
+    .technologies img{
+        margin: 20px 0 20px;
+    }
+    
+  
+}
